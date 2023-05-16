@@ -48,3 +48,17 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+
+.intro-grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+
+.intro {
+    grid-column: 2 / 2;
+    margin-left: 20px;
+}
