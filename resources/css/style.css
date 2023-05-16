@@ -1,0 +1,9 @@
+nav {
+    text-align: right;
+}
+
+ul.nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
