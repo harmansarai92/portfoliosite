@@ -1,9 +1,20 @@
+* {
+    background-color: lightgrey;
+}
+
 nav {
-    text-align: right;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 ul.nav li {
     list-style: none;
     display: inline-block;
-    margin: 10px;
+    margin-top: 1px;
+}
+
+#middle-nav {
+    margin-right: 120px;
+    margin-left: 120px;
 }
