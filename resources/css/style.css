@@ -29,7 +29,6 @@ ul.nav li {
 }
 
 #middle-nav {
-    margin-right: 120px;
     margin-left: 120px;
 }
 
@@ -50,7 +49,7 @@ a:active {
 }
 
 
-.intro-grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: 400px 400px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -60,7 +59,7 @@ a:active {
 
 .intro {
     grid-column: 1 / 2;
-    margin-left: 20px;
+    margin-left: 10px;
     font-family: 'Wix Madefor Display';
 }
 
@@ -90,4 +89,37 @@ a:active {
     margin-left: 10px;
     grid-row: 4;
     font-family: 'Wix Madefor Display';
+}
+
+
+@media all and (max-width: 500px) {
+
+    #middle-nav {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    ul.nav li {
+        display: block;
+    }
+
+    .intro {
+        margin-left: 2px;
+    }
+
+    .contact-intro {
+        margin-left: 2px;
+    }
+
+    .html-projects {
+        margin-left: 2px;
+    }
+
+    .javascript-projects {
+        margin-left: 2px;
+    }
+
+    .full-stack {
+        margin-left: 2px;
+    }
 }
