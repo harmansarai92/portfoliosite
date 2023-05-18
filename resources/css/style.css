@@ -68,3 +68,8 @@ a:active {
     grid-column: 2 / 2;
     margin-left: 10px;
 }
+
+.contact-intro {
+    margin-left: 10px;
+    font-family: 'Wix Madefor Display';
+}
