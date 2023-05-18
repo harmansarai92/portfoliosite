@@ -53,7 +53,7 @@ a:active {
 .intro-grid-container {
     display: grid;
     grid-template-columns: 400px 400px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
 
@@ -71,5 +71,23 @@ a:active {
 
 .contact-intro {
     margin-left: 10px;
+    font-family: 'Wix Madefor Display';
+}
+
+.html-projects {
+    margin-left: 10px;
+    grid-row: 2;
+    font-family: 'Wix Madefor Display';
+}
+
+.javascript-projects {
+    margin-left: 10px;
+    grid-row: 3;
+    font-family: 'Wix Madefor Display';
+}
+
+.full-stack {
+    margin-left: 10px;
+    grid-row: 4;
     font-family: 'Wix Madefor Display';
 }
