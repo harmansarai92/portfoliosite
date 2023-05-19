@@ -9,6 +9,8 @@ nav {
 }
 
 ul {
+    display: flex;
+    justify-content: space-between;
     font-family: 'Quicksand';
     text-decoration: none;
     list-style: none;
@@ -108,9 +110,7 @@ header {
         margin-left: 0px;
     }
 
-    ul.nav li {
-        display: block;
-    }
+    
 
     .intro {
         margin-left: 2px;
