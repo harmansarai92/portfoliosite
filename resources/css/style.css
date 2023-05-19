@@ -1,4 +1,4 @@
-* {
+body {
     background-color: lightgrey;
 }
 
@@ -91,11 +91,20 @@ a:active {
     font-family: 'Wix Madefor Display';
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 
 @media all and (max-width: 500px) {
 
+
+    .grid-container {
+        grid-template-columns: 200px 200px;
+    }
+
     #middle-nav {
-        margin-right: 0px;
         margin-left: 0px;
     }
 
